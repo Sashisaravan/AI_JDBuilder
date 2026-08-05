@@ -1,16 +1,46 @@
-# React + Vite
+# 🤖 AI JD Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI JD Builder is a web application that helps users create **professional, structured, and job-ready Job Descriptions (JDs)** using AI.
 
-Currently, two official plugins are available:
+Instead of writing a job description from scratch, users can provide basic role information and let AI generate a complete JD with responsibilities, requirements, skills, and other relevant details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ✨ Generate professional Job Descriptions using AI
+* 📝 Enter job title, experience, skills, and role details
+* 🤖 AI-powered JD generation
+* 📋 Structured and easy-to-read output
+* 📄 Copy generated JD with one click
+* 📱 Responsive UI for desktop and mobile
+* ⚡ Fast and simple user experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React.js
+* **Language:** JavaScript
+* **UI:** Material UI / CSS
+* **AI:** Groq API
+* **Build Tool:** Vite
+* **API:** REST API
+* **Version Control:** Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 How It Works
+
+```text
+User Input
+    ↓
+Job Role Details
+    ↓
+AI Prompt Generation
+    ↓
+Groq API
+    ↓
+AI Generated Job Description
+    ↓
+Structured JD Output
+```
+
+## 📸 Screenshots
+
+<img width="947" height="406" alt="image" src="https://github.com/user-attachments/assets/639b5e5e-2d4a-45a0-9910-8344672af5a0" />
+
